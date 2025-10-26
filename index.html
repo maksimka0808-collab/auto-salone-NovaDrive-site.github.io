@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaDrive — Премиум Автосалон</title>
+  <link rel="stylesheet" href="css/style.css" />
+   <link rel="icon" type="image/png" href="img/лого.png">
+</head>
+<body>
+
+  <!-- ====== Навигация ====== -->
+  <header class="navbar">
+    <div   class="logo">🚘 NovaDrive</div>
+    <nav class="nav-links">
+      <a href="#home">Главная</a>
+      <a href="#catalog">Каталог</a>
+      <a href="#about">О нас</a>
+      <a href="#contact">Контакты</a>
+      <button id="open-login" class="btn small">Вход</button>
+    </nav>
+     <div class="burger">
+                <span></span>
+            </div>
+
+  </header>
+
+  <!-- ====== Главный экран ====== -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1 class="fade-up">Будущее начинается с NovaDrive</h1>
+      <p class="fade-up-delay">
+        Ощути мощь технологий и элегантный дизайн.  
+        Мы создаём автомобили, которые вдохновляют.
+      </p>
+      <div class="hero-buttons fade-up-delay2">
+        <button id="catalogBtn" class="btn primary">Каталог</button>
+        <button id="aboutBtn" class="btn ghost">Подробнее</button>
+      </div>
+    </div>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slider-wrapper">
+                            <div class="slide active">
+                                <img src="img/главный 1.jpg" alt="Orange">
+                                <div class="slide-caption">BMW 507</div>
+                            </div>
+                             <div class="slide">
+                                <img src="img/главный 2.jpg" alt="Blue">
+                                <div class="slide-caption">BMW 507</div>
+                            </div>      
+                            <div class="slide">
+                                <img src="img/главный 3.jpg" alt="Red">
+                                <div class="slide-caption">BMW 507</div>
+                            </div>                                                 
+                        </div>
+                        <button class="slider-button prev">&lt;</button>
+                        <button class="slider-button next">&gt;</button>
+                    </div>
+                </div>
+            </div>
+  </section>
+
+  <!-- ====== Каталог ====== -->
+  <section id="catalog" class="catalog">
+    <h2>Популярные модели</h2>
+    <div class="car-grid">
+      <div class="car-card slide-up">
+        <img src="img/тесла.png" alt="Tesla Model 3" />
+        <h3>Tesla Model 3</h3>
+        <p>Инновации и эффективность в каждом километре.</p>
+        <div class="extra-info">
+    <p>Этот продукт создан из экологичных материалов, имеет уникальный дизайн и ограниченный тираж.</p>
+</div>
+
+        <button class="btn small">Подробнее</button>
+      </div>
+
+      <div class="car-card slide-up">
+        <img src="img/бмв.png" alt="BMW i7" />
+        <h3>BMW i7</h3>
+        <p>Электрическая роскошь нового поколения.</p>
+        <button class="btn small">Подробнее</button>
+      </div>
+
+      <div class="car-card slide-up">
+        <img src="img/ауди.jpg" alt="Audi e-tron GT" />
+        <h3>Audi e-tron GT</h3>
+        <p>Скорость, стиль и технологии в одном кузове.</p>
+        <button class="btn small">Подробнее</button>
+      </div>
+
+      <div class="car-card slide-up">
+        <img src="img/тесла с.png" alt="Tesla Model S" />
+        <h3>Tesla Model S</h3>
+        <p>Мощь будущего с непревзойденным комфортом.</p>
+        <button class="btn small">Подробнее</button>
+      </div>
+    </div>
+
+    
+  </section>
+
+  <!-- ====== О компании ====== -->
+  <section id="about" class="about">
+    <div class="about-text slide-right">
+      <h2>О компании</h2>
+      <p>
+NovaDrive — это автосалон нового поколения, где инновации встречаются с комфортом и стилем.
+Мы предлагаем премиальные электромобили, созданные для тех, кто ценит скорость, технологичность и экологичность.
+      </p>
+      <h3>Почему выбирают нас:</h3>
+      <p> </p>
+      <p>⚡ Только проверенные бренды и сертифицированные электрокары.</p>
+      <p>🌍 Забота об экологии — каждый автомобиль снижает выбросы CO₂.</p>
+      <p>💼 Индивидуальный подход к каждому клиенту.</p>
+      <p>🛠️ Полный цикл обслуживания — от подбора и тест-драйва до постгарантийного сервиса.</p>
+      <p>🔋 Консультации по установке зарядных станций и домашнему оборудованию.</p>
+      <p>NovaDrive — это не просто автосалон.
+Это центр современных технологий и электромобильной культуры, где каждый клиент становится частью будущего автомобильного мира.</p>
+      <button id="contactBtn" class="btn primary">Связаться</button>
+    </div>
+    <div class="about-image slide-left">
+      <img src="img/автосалон.png" alt="Автосалон" />
+    </div>
+  </section>
+
+          <section id="promo-video" class="content-section">
+            <div class="container fade-in">
+                <h2>Наши автомобили</h2>
+                <div class="video-wrapper">
+                    <iframe 
+                        title="CARS"
+                        src="video/наши автомобили.mp4" 
+                        allow="accelerometer; autoplay; clipboard-white; gyroscope; web-share; picture-in-picture;"
+                        allowfullscreen
+                        frameborder="0">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    <section id="faq" class="content-section">
+            <div class="container fade-in">
+                <h2>Часто Задаваемые Вопросы (FAQ)</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">Можно ли пройти тест-драйв перед покупкой?</div>
+                        <div class="accordion-content">
+                            <p>Разумеется!
+Вы можете записаться на тест-драйв любой модели, заполнив форму на сайте или связавшись с менеджером по телефону.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">Предоставляете ли вы гарантию на автомобили?</div>
+                        <div class="accordion-content">
+                            <p>Да, все электромобили имеют официальную гарантию производителя, а также расширенную гарантию NovaDrive на обслуживание и электрооборудование.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">Почему стоит выбрать именно NovaDrive?</div>
+                        <div class="accordion-content">
+                            <p>Потому что NovaDrive — это не просто автосалон, а команда профессионалов, продвигающих экологичный и технологичный транспорт будущего.
+Мы создаём для клиентов комфорт, уверенность и удовольствие от каждой поездки.</p>
+                        </div>
+                    </div>                                        
+                </div>
+            </div>
+        </section>
+
+<section class="map-section"></section>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372170.03255280165!2d76.622871930485!3d43.21833184935468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e7d16c5cbab%3A0x3d44668fad986d76!2z0JDQu9C80LDRgtGL!5e0!3m2!1sru!2skz!4v1761445508117!5m2!1sru!2skz" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+  <!-- ====== Контакты ====== -->
+  <footer id="contact" class="footer">
+    <p>Давайте на связи!</p>
+    <p>Хотите записаться на тест-драйв, задать вопрос или узнать подробнее о моделях NovaDrive?</p>
+    <p>Просто оставьте свои контакты — и наш менеджер ответит вам в течение дня.</p>
+    <p> </p>
+    <h2>Свяжитесь с нами</h2>
+    <form id="contact-form" class="fade-in">
+      <input type="text" placeholder="Имя" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Сообщение..." required></textarea>
+      <button class="btn primary">Отправить</button>
+    </form>
+    <p>© 2025 NovaDrive. Все права защищены.</p>
+  </footer>
+
+  <!-- ====== Модальное окно входа ====== -->
+  <div id="login-modal" class="modal hidden">
+    <div class="modal-content">
+      <span id="close-login" class="close">&times;</span>
+      <h2>Вход</h2>
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Имя пользователя" required />
+        <input type="password" id="password" placeholder="Пароль" required />
+        <button type="submit" class="btn primary">Войти</button>
+        <p>Нет аккаунта? <a href="#" id="register-link">Регистрация</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
